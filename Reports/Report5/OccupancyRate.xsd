@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OccupancyRate" targetNamespace="http://tempuri.org/OccupancyRate.xsd" xmlns:mstns="http://tempuri.org/OccupancyRate.xsd" xmlns="http://tempuri.org/OccupancyRate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TravelEaseConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TravelEaseConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Project.Properties.Settings.GlobalReference.Default.TravelEaseConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataSetOccupancyRateTableAdapter" GeneratorDataComponentClassName="DataSetOccupancyRateTableAdapter" Name="DataSetOccupancyRate" UserDataComponentName="DataSetOccupancyRateTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS HotelName, 
+    0.0 AS OccupancyRate 
+WHERE 1=0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="HotelName" DataSetColumn="HotelName" />
+              <Mapping SourceColumn="OccupancyRate" DataSetColumn="OccupancyRate" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AverageRatingTableAdapter" GeneratorDataComponentClassName="AverageRatingTableAdapter" Name="AverageRating" UserDataComponentName="AverageRatingTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS GuideName, 
+    0.0 AS AverageRating 
+WHERE 1=0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="GuideName" DataSetColumn="GuideName" />
+              <Mapping SourceColumn="AverageRating" DataSetColumn="AverageRating" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TimeTravelTableAdapter" GeneratorDataComponentClassName="TimeTravelTableAdapter" Name="TimeTravel" UserDataComponentName="TimeTravelTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS OperatorName, 
+    0.0 AS OnTimePerformance 
+WHERE 1=0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="OperatorName" DataSetColumn="OperatorName" />
+              <Mapping SourceColumn="OnTimePerformance" DataSetColumn="OnTimePerformance" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PaymentSuccessTableAdapter" GeneratorDataComponentClassName="PaymentSuccessTableAdapter" Name="PaymentSuccess" UserDataComponentName="PaymentSuccessTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS Status, 
+    0.0 AS Percentage 
+WHERE 1=0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="Percentage" DataSetColumn="Percentage" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DisputedTableAdapter" GeneratorDataComponentClassName="DisputedTableAdapter" Name="Disputed" UserDataComponentName="DisputedTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS StatusLabel, 
+    0.0 AS Percentage
+WHERE 1 = 0;
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="StatusLabel" DataSetColumn="StatusLabel" />
+              <Mapping SourceColumn="Percentage" DataSetColumn="Percentage" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AbandonedRateTableAdapter" GeneratorDataComponentClassName="AbandonedRateTableAdapter" Name="AbandonedRate" UserDataComponentName="AbandonedRateTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS Status, 
+    0.0 AS Percentage
+WHERE 1=0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="Percentage" DataSetColumn="Percentage" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ReasonsTableAdapter" GeneratorDataComponentClassName="ReasonsTableAdapter" Name="Reasons" UserDataComponentName="ReasonsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS Reason, 
+    0.0 AS Percentage
+WHERE 1=0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Reason" DataSetColumn="Reason" />
+              <Mapping SourceColumn="Percentage" DataSetColumn="Percentage" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RecoveryTableAdapter" GeneratorDataComponentClassName="RecoveryTableAdapter" Name="Recovery" UserDataComponentName="RecoveryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS Status, 
+    0.0 AS Percentage
+WHERE 1=0
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="Percentage" DataSetColumn="Percentage" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RevenueLossTableAdapter" GeneratorDataComponentClassName="RevenueLossTableAdapter" Name="RevenueLoss" UserDataComponentName="RevenueLossTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    'Potential Revenue Loss' AS Status, 
+    0.0 AS PotentialRevenueLoss
+WHERE 1=0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="PotentialRevenueLoss" DataSetColumn="PotentialRevenueLoss" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RatingsTableAdapter" GeneratorDataComponentClassName="RatingsTableAdapter" Name="Ratings" UserDataComponentName="RatingsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS OperatorName, 
+    0.0 AS AverageRating
+WHERE 1=0
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="OperatorName" DataSetColumn="OperatorName" />
+              <Mapping SourceColumn="AverageRating" DataSetColumn="AverageRating" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="OperatorRevenueTableAdapter" GeneratorDataComponentClassName="OperatorRevenueTableAdapter" Name="OperatorRevenue" UserDataComponentName="OperatorRevenueTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS OperatorName, 
+    0.0 AS TotalRevenue
+WHERE 1=0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="OperatorName" DataSetColumn="OperatorName" />
+              <Mapping SourceColumn="TotalRevenue" DataSetColumn="TotalRevenue" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ResponseTimeTableAdapter" GeneratorDataComponentClassName="ResponseTimeTableAdapter" Name="ResponseTime" UserDataComponentName="ResponseTimeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+    '' AS PassID, 
+    0 AS ResponseTimeInMinutes
+WHERE 1=0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PassID" DataSetColumn="PassID" />
+              <Mapping SourceColumn="ResponseTimeInMinutes" DataSetColumn="ResponseTimeInMinutes" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OccupancyRate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="OccupancyRate" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="OccupancyRate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataSetOccupancyRate" msprop:Generator_RowClassName="DataSetOccupancyRateRow" msprop:Generator_RowEvHandlerName="DataSetOccupancyRateRowChangeEventHandler" msprop:Generator_RowDeletedName="DataSetOccupancyRateRowDeleted" msprop:Generator_RowDeletingName="DataSetOccupancyRateRowDeleting" msprop:Generator_RowEvArgName="DataSetOccupancyRateRowChangeEvent" msprop:Generator_TablePropName="DataSetOccupancyRate" msprop:Generator_RowChangedName="DataSetOccupancyRateRowChanged" msprop:Generator_UserTableName="DataSetOccupancyRate" msprop:Generator_RowChangingName="DataSetOccupancyRateRowChanging" msprop:Generator_TableClassName="DataSetOccupancyRateDataTable" msprop:Generator_TableVarName="tableDataSetOccupancyRate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HotelName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="HotelName" msprop:Generator_ColumnPropNameInTable="HotelNameColumn" msprop:Generator_ColumnPropNameInRow="HotelName" msprop:Generator_ColumnVarNameInTable="columnHotelName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OccupancyRate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OccupancyRate" msprop:Generator_ColumnPropNameInTable="OccupancyRateColumn" msprop:Generator_ColumnPropNameInRow="OccupancyRate" msprop:Generator_ColumnVarNameInTable="columnOccupancyRate" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AverageRating" msprop:Generator_RowClassName="AverageRatingRow" msprop:Generator_RowEvHandlerName="AverageRatingRowChangeEventHandler" msprop:Generator_RowDeletedName="AverageRatingRowDeleted" msprop:Generator_RowDeletingName="AverageRatingRowDeleting" msprop:Generator_RowEvArgName="AverageRatingRowChangeEvent" msprop:Generator_TablePropName="AverageRating" msprop:Generator_RowChangedName="AverageRatingRowChanged" msprop:Generator_UserTableName="AverageRating" msprop:Generator_RowChangingName="AverageRatingRowChanging" msprop:Generator_TableClassName="AverageRatingDataTable" msprop:Generator_TableVarName="tableAverageRating">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GuideName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="GuideName" msprop:Generator_ColumnPropNameInTable="GuideNameColumn" msprop:Generator_ColumnPropNameInRow="GuideName" msprop:Generator_ColumnVarNameInTable="columnGuideName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AverageRating" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AverageRating" msprop:Generator_ColumnPropNameInTable="AverageRatingColumn" msprop:Generator_ColumnPropNameInRow="AverageRating" msprop:Generator_ColumnVarNameInTable="columnAverageRating" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TimeTravel" msprop:Generator_RowClassName="TimeTravelRow" msprop:Generator_RowEvHandlerName="TimeTravelRowChangeEventHandler" msprop:Generator_RowDeletedName="TimeTravelRowDeleted" msprop:Generator_RowDeletingName="TimeTravelRowDeleting" msprop:Generator_RowEvArgName="TimeTravelRowChangeEvent" msprop:Generator_TablePropName="TimeTravel" msprop:Generator_RowChangedName="TimeTravelRowChanged" msprop:Generator_UserTableName="TimeTravel" msprop:Generator_RowChangingName="TimeTravelRowChanging" msprop:Generator_TableClassName="TimeTravelDataTable" msprop:Generator_TableVarName="tableTimeTravel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OperatorName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OperatorName" msprop:Generator_ColumnPropNameInTable="OperatorNameColumn" msprop:Generator_ColumnPropNameInRow="OperatorName" msprop:Generator_ColumnVarNameInTable="columnOperatorName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OnTimePerformance" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OnTimePerformance" msprop:Generator_ColumnPropNameInTable="OnTimePerformanceColumn" msprop:Generator_ColumnPropNameInRow="OnTimePerformance" msprop:Generator_ColumnVarNameInTable="columnOnTimePerformance" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PaymentSuccess" msprop:Generator_RowClassName="PaymentSuccessRow" msprop:Generator_RowEvHandlerName="PaymentSuccessRowChangeEventHandler" msprop:Generator_RowDeletedName="PaymentSuccessRowDeleted" msprop:Generator_RowDeletingName="PaymentSuccessRowDeleting" msprop:Generator_RowEvArgName="PaymentSuccessRowChangeEvent" msprop:Generator_TablePropName="PaymentSuccess" msprop:Generator_RowChangedName="PaymentSuccessRowChanged" msprop:Generator_UserTableName="PaymentSuccess" msprop:Generator_RowChangingName="PaymentSuccessRowChanging" msprop:Generator_TableClassName="PaymentSuccessDataTable" msprop:Generator_TableVarName="tablePaymentSuccess">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Status" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Percentage" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Percentage" msprop:Generator_ColumnPropNameInTable="PercentageColumn" msprop:Generator_ColumnPropNameInRow="Percentage" msprop:Generator_ColumnVarNameInTable="columnPercentage" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Disputed" msprop:Generator_RowClassName="DisputedRow" msprop:Generator_RowEvHandlerName="DisputedRowChangeEventHandler" msprop:Generator_RowDeletedName="DisputedRowDeleted" msprop:Generator_RowDeletingName="DisputedRowDeleting" msprop:Generator_RowEvArgName="DisputedRowChangeEvent" msprop:Generator_TablePropName="Disputed" msprop:Generator_RowChangedName="DisputedRowChanged" msprop:Generator_UserTableName="Disputed" msprop:Generator_RowChangingName="DisputedRowChanging" msprop:Generator_TableClassName="DisputedDataTable" msprop:Generator_TableVarName="tableDisputed">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatusLabel" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StatusLabel" msprop:Generator_ColumnPropNameInTable="StatusLabelColumn" msprop:Generator_ColumnPropNameInRow="StatusLabel" msprop:Generator_ColumnVarNameInTable="columnStatusLabel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Percentage" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Percentage" msprop:Generator_ColumnPropNameInTable="PercentageColumn" msprop:Generator_ColumnPropNameInRow="Percentage" msprop:Generator_ColumnVarNameInTable="columnPercentage" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AbandonedRate" msprop:Generator_RowClassName="AbandonedRateRow" msprop:Generator_RowEvHandlerName="AbandonedRateRowChangeEventHandler" msprop:Generator_RowDeletedName="AbandonedRateRowDeleted" msprop:Generator_RowDeletingName="AbandonedRateRowDeleting" msprop:Generator_RowEvArgName="AbandonedRateRowChangeEvent" msprop:Generator_TablePropName="AbandonedRate" msprop:Generator_RowChangedName="AbandonedRateRowChanged" msprop:Generator_UserTableName="AbandonedRate" msprop:Generator_RowChangingName="AbandonedRateRowChanging" msprop:Generator_TableClassName="AbandonedRateDataTable" msprop:Generator_TableVarName="tableAbandonedRate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Status" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Percentage" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Percentage" msprop:Generator_ColumnPropNameInTable="PercentageColumn" msprop:Generator_ColumnPropNameInRow="Percentage" msprop:Generator_ColumnVarNameInTable="columnPercentage" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Reasons" msprop:Generator_RowClassName="ReasonsRow" msprop:Generator_RowEvHandlerName="ReasonsRowChangeEventHandler" msprop:Generator_RowDeletedName="ReasonsRowDeleted" msprop:Generator_RowDeletingName="ReasonsRowDeleting" msprop:Generator_RowEvArgName="ReasonsRowChangeEvent" msprop:Generator_TablePropName="Reasons" msprop:Generator_RowChangedName="ReasonsRowChanged" msprop:Generator_UserTableName="Reasons" msprop:Generator_RowChangingName="ReasonsRowChanging" msprop:Generator_TableClassName="ReasonsDataTable" msprop:Generator_TableVarName="tableReasons">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Reason" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Reason" msprop:Generator_ColumnPropNameInTable="ReasonColumn" msprop:Generator_ColumnPropNameInRow="Reason" msprop:Generator_ColumnVarNameInTable="columnReason" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Percentage" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Percentage" msprop:Generator_ColumnPropNameInTable="PercentageColumn" msprop:Generator_ColumnPropNameInRow="Percentage" msprop:Generator_ColumnVarNameInTable="columnPercentage" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Recovery" msprop:Generator_RowClassName="RecoveryRow" msprop:Generator_RowEvHandlerName="RecoveryRowChangeEventHandler" msprop:Generator_RowDeletedName="RecoveryRowDeleted" msprop:Generator_RowDeletingName="RecoveryRowDeleting" msprop:Generator_RowEvArgName="RecoveryRowChangeEvent" msprop:Generator_TablePropName="Recovery" msprop:Generator_RowChangedName="RecoveryRowChanged" msprop:Generator_UserTableName="Recovery" msprop:Generator_RowChangingName="RecoveryRowChanging" msprop:Generator_TableClassName="RecoveryDataTable" msprop:Generator_TableVarName="tableRecovery">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Status" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Percentage" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Percentage" msprop:Generator_ColumnPropNameInTable="PercentageColumn" msprop:Generator_ColumnPropNameInRow="Percentage" msprop:Generator_ColumnVarNameInTable="columnPercentage" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RevenueLoss" msprop:Generator_RowClassName="RevenueLossRow" msprop:Generator_RowEvHandlerName="RevenueLossRowChangeEventHandler" msprop:Generator_RowDeletedName="RevenueLossRowDeleted" msprop:Generator_RowDeletingName="RevenueLossRowDeleting" msprop:Generator_RowEvArgName="RevenueLossRowChangeEvent" msprop:Generator_TablePropName="RevenueLoss" msprop:Generator_RowChangedName="RevenueLossRowChanged" msprop:Generator_UserTableName="RevenueLoss" msprop:Generator_RowChangingName="RevenueLossRowChanging" msprop:Generator_TableClassName="RevenueLossDataTable" msprop:Generator_TableVarName="tableRevenueLoss">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Status" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="22" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PotentialRevenueLoss" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PotentialRevenueLoss" msprop:Generator_ColumnPropNameInTable="PotentialRevenueLossColumn" msprop:Generator_ColumnPropNameInRow="PotentialRevenueLoss" msprop:Generator_ColumnVarNameInTable="columnPotentialRevenueLoss" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Ratings" msprop:Generator_RowEvHandlerName="RatingsRowChangeEventHandler" msprop:Generator_RowDeletedName="RatingsRowDeleted" msprop:Generator_RowDeletingName="RatingsRowDeleting" msprop:Generator_RowEvArgName="RatingsRowChangeEvent" msprop:Generator_TablePropName="Ratings" msprop:Generator_RowChangedName="RatingsRowChanged" msprop:Generator_RowChangingName="RatingsRowChanging" msprop:Generator_TableClassName="RatingsDataTable" msprop:Generator_RowClassName="RatingsRow" msprop:Generator_TableVarName="tableRatings" msprop:Generator_UserTableName="Ratings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OperatorName" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="OperatorName" msprop:Generator_ColumnPropNameInTable="OperatorNameColumn" msprop:Generator_ColumnVarNameInTable="columnOperatorName" msprop:Generator_UserColumnName="OperatorName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AverageRating" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="AverageRating" msprop:Generator_ColumnPropNameInTable="AverageRatingColumn" msprop:Generator_ColumnVarNameInTable="columnAverageRating" msprop:Generator_UserColumnName="AverageRating" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OperatorRevenue" msprop:Generator_RowEvHandlerName="OperatorRevenueRowChangeEventHandler" msprop:Generator_RowDeletedName="OperatorRevenueRowDeleted" msprop:Generator_RowDeletingName="OperatorRevenueRowDeleting" msprop:Generator_RowEvArgName="OperatorRevenueRowChangeEvent" msprop:Generator_TablePropName="OperatorRevenue" msprop:Generator_RowChangedName="OperatorRevenueRowChanged" msprop:Generator_RowChangingName="OperatorRevenueRowChanging" msprop:Generator_TableClassName="OperatorRevenueDataTable" msprop:Generator_RowClassName="OperatorRevenueRow" msprop:Generator_TableVarName="tableOperatorRevenue" msprop:Generator_UserTableName="OperatorRevenue">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OperatorName" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="OperatorName" msprop:Generator_ColumnPropNameInTable="OperatorNameColumn" msprop:Generator_ColumnVarNameInTable="columnOperatorName" msprop:Generator_UserColumnName="OperatorName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalRevenue" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="TotalRevenue" msprop:Generator_ColumnPropNameInTable="TotalRevenueColumn" msprop:Generator_ColumnVarNameInTable="columnTotalRevenue" msprop:Generator_UserColumnName="TotalRevenue" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ResponseTime" msprop:Generator_RowEvHandlerName="ResponseTimeRowChangeEventHandler" msprop:Generator_RowDeletedName="ResponseTimeRowDeleted" msprop:Generator_RowDeletingName="ResponseTimeRowDeleting" msprop:Generator_RowEvArgName="ResponseTimeRowChangeEvent" msprop:Generator_TablePropName="ResponseTime" msprop:Generator_RowChangedName="ResponseTimeRowChanged" msprop:Generator_RowChangingName="ResponseTimeRowChanging" msprop:Generator_TableClassName="ResponseTimeDataTable" msprop:Generator_RowClassName="ResponseTimeRow" msprop:Generator_TableVarName="tableResponseTime" msprop:Generator_UserTableName="ResponseTime">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PassID" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="PassID" msprop:Generator_ColumnPropNameInTable="PassIDColumn" msprop:Generator_ColumnVarNameInTable="columnPassID" msprop:Generator_UserColumnName="PassID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ResponseTimeInMinutes" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="ResponseTimeInMinutes" msprop:Generator_ColumnPropNameInTable="ResponseTimeInMinutesColumn" msprop:Generator_ColumnVarNameInTable="columnResponseTimeInMinutes" msprop:Generator_UserColumnName="ResponseTimeInMinutes" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
