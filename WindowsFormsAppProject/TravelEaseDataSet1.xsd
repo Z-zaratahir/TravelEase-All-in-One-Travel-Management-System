@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TravelEaseDataSet1" targetNamespace="http://tempuri.org/TravelEaseDataSet1.xsd" xmlns:mstns="http://tempuri.org/TravelEaseDataSet1.xsd" xmlns="http://tempuri.org/TravelEaseDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TravelEaseConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TravelEaseConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsAppProject.Properties.Settings.GlobalReference.Default.TravelEaseConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_CancellationRateTableAdapter" GeneratorDataComponentClassName="view_CancellationRateTableAdapter" Name="view_CancellationRate" UserDataComponentName="view_CancellationRateTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectName="TravelEase.dbo.view_CancellationRate" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TripID, TripCategory, TotalBookings, CanceledBookings, CancellationRate FROM dbo.view_CancellationRate</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TripID" DataSetColumn="TripID" />
+              <Mapping SourceColumn="TripCategory" DataSetColumn="TripCategory" />
+              <Mapping SourceColumn="TotalBookings" DataSetColumn="TotalBookings" />
+              <Mapping SourceColumn="CanceledBookings" DataSetColumn="CanceledBookings" />
+              <Mapping SourceColumn="CancellationRate" DataSetColumn="CancellationRate" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_RevenueByCategoryTableAdapter" GeneratorDataComponentClassName="view_RevenueByCategoryTableAdapter" Name="view_RevenueByCategory" UserDataComponentName="view_RevenueByCategoryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectName="TravelEase.dbo.view_RevenueByCategory" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TripID, TripCategory, Capacity, Duration, TotalRevenue FROM dbo.view_RevenueByCategory</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TripID" DataSetColumn="TripID" />
+              <Mapping SourceColumn="TripCategory" DataSetColumn="TripCategory" />
+              <Mapping SourceColumn="Capacity" DataSetColumn="Capacity" />
+              <Mapping SourceColumn="Duration" DataSetColumn="Duration" />
+              <Mapping SourceColumn="TotalRevenue" DataSetColumn="TotalRevenue" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_TotalBookingsTableAdapter" GeneratorDataComponentClassName="view_TotalBookingsTableAdapter" Name="view_TotalBookings" UserDataComponentName="view_TotalBookingsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectName="TravelEase.dbo.view_TotalBookings" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT NumberOfConfirmedBookings, NumberOfNotConfirmedBookings, NumberOfPendingBookings FROM dbo.view_TotalBookings</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NumberOfConfirmedBookings" DataSetColumn="NumberOfConfirmedBookings" />
+              <Mapping SourceColumn="NumberOfNotConfirmedBookings" DataSetColumn="NumberOfNotConfirmedBookings" />
+              <Mapping SourceColumn="NumberOfPendingBookings" DataSetColumn="NumberOfPendingBookings" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TravelEaseDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="TravelEaseDataSet1" msprop:Generator_DataSetName="TravelEaseDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_CancellationRate" msprop:Generator_RowEvHandlerName="view_CancellationRateRowChangeEventHandler" msprop:Generator_RowDeletedName="view_CancellationRateRowDeleted" msprop:Generator_RowDeletingName="view_CancellationRateRowDeleting" msprop:Generator_RowEvArgName="view_CancellationRateRowChangeEvent" msprop:Generator_TablePropName="view_CancellationRate" msprop:Generator_RowChangedName="view_CancellationRateRowChanged" msprop:Generator_RowChangingName="view_CancellationRateRowChanging" msprop:Generator_TableClassName="view_CancellationRateDataTable" msprop:Generator_RowClassName="view_CancellationRateRow" msprop:Generator_TableVarName="tableview_CancellationRate" msprop:Generator_UserTableName="view_CancellationRate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TripID" msprop:Generator_ColumnPropNameInRow="TripID" msprop:Generator_ColumnPropNameInTable="TripIDColumn" msprop:Generator_ColumnVarNameInTable="columnTripID" msprop:Generator_UserColumnName="TripID" type="xs:int" />
+              <xs:element name="TripCategory" msprop:Generator_ColumnPropNameInRow="TripCategory" msprop:Generator_ColumnPropNameInTable="TripCategoryColumn" msprop:Generator_ColumnVarNameInTable="columnTripCategory" msprop:Generator_UserColumnName="TripCategory" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalBookings" msprop:Generator_ColumnPropNameInRow="TotalBookings" msprop:Generator_ColumnPropNameInTable="TotalBookingsColumn" msprop:Generator_ColumnVarNameInTable="columnTotalBookings" msprop:Generator_UserColumnName="TotalBookings" type="xs:int" minOccurs="0" />
+              <xs:element name="CanceledBookings" msprop:Generator_ColumnPropNameInRow="CanceledBookings" msprop:Generator_ColumnPropNameInTable="CanceledBookingsColumn" msprop:Generator_ColumnVarNameInTable="columnCanceledBookings" msprop:Generator_UserColumnName="CanceledBookings" type="xs:int" minOccurs="0" />
+              <xs:element name="CancellationRate" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="CancellationRate" msprop:Generator_ColumnPropNameInTable="CancellationRateColumn" msprop:Generator_ColumnVarNameInTable="columnCancellationRate" msprop:Generator_UserColumnName="CancellationRate" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="view_RevenueByCategory" msprop:Generator_RowEvHandlerName="view_RevenueByCategoryRowChangeEventHandler" msprop:Generator_RowDeletedName="view_RevenueByCategoryRowDeleted" msprop:Generator_RowDeletingName="view_RevenueByCategoryRowDeleting" msprop:Generator_RowEvArgName="view_RevenueByCategoryRowChangeEvent" msprop:Generator_TablePropName="view_RevenueByCategory" msprop:Generator_RowChangedName="view_RevenueByCategoryRowChanged" msprop:Generator_RowChangingName="view_RevenueByCategoryRowChanging" msprop:Generator_TableClassName="view_RevenueByCategoryDataTable" msprop:Generator_RowClassName="view_RevenueByCategoryRow" msprop:Generator_TableVarName="tableview_RevenueByCategory" msprop:Generator_UserTableName="view_RevenueByCategory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TripID" msprop:Generator_ColumnPropNameInRow="TripID" msprop:Generator_ColumnPropNameInTable="TripIDColumn" msprop:Generator_ColumnVarNameInTable="columnTripID" msprop:Generator_UserColumnName="TripID" type="xs:int" />
+              <xs:element name="TripCategory" msprop:Generator_ColumnPropNameInRow="TripCategory" msprop:Generator_ColumnPropNameInTable="TripCategoryColumn" msprop:Generator_ColumnVarNameInTable="columnTripCategory" msprop:Generator_UserColumnName="TripCategory" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Capacity" msprop:Generator_ColumnPropNameInRow="Capacity" msprop:Generator_ColumnPropNameInTable="CapacityColumn" msprop:Generator_ColumnVarNameInTable="columnCapacity" msprop:Generator_UserColumnName="Capacity">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Duration" msprop:Generator_ColumnPropNameInRow="Duration" msprop:Generator_ColumnPropNameInTable="DurationColumn" msprop:Generator_ColumnVarNameInTable="columnDuration" msprop:Generator_UserColumnName="Duration">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalRevenue" msprop:Generator_ColumnPropNameInRow="TotalRevenue" msprop:Generator_ColumnPropNameInTable="TotalRevenueColumn" msprop:Generator_ColumnVarNameInTable="columnTotalRevenue" msprop:Generator_UserColumnName="TotalRevenue" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="view_TotalBookings" msprop:Generator_RowEvHandlerName="view_TotalBookingsRowChangeEventHandler" msprop:Generator_RowDeletedName="view_TotalBookingsRowDeleted" msprop:Generator_RowDeletingName="view_TotalBookingsRowDeleting" msprop:Generator_RowEvArgName="view_TotalBookingsRowChangeEvent" msprop:Generator_TablePropName="view_TotalBookings" msprop:Generator_RowChangedName="view_TotalBookingsRowChanged" msprop:Generator_RowChangingName="view_TotalBookingsRowChanging" msprop:Generator_TableClassName="view_TotalBookingsDataTable" msprop:Generator_RowClassName="view_TotalBookingsRow" msprop:Generator_TableVarName="tableview_TotalBookings" msprop:Generator_UserTableName="view_TotalBookings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumberOfConfirmedBookings" msprop:Generator_ColumnPropNameInRow="NumberOfConfirmedBookings" msprop:Generator_ColumnPropNameInTable="NumberOfConfirmedBookingsColumn" msprop:Generator_ColumnVarNameInTable="columnNumberOfConfirmedBookings" msprop:Generator_UserColumnName="NumberOfConfirmedBookings" type="xs:int" minOccurs="0" />
+              <xs:element name="NumberOfNotConfirmedBookings" msprop:Generator_ColumnPropNameInRow="NumberOfNotConfirmedBookings" msprop:Generator_ColumnPropNameInTable="NumberOfNotConfirmedBookingsColumn" msprop:Generator_ColumnVarNameInTable="columnNumberOfNotConfirmedBookings" msprop:Generator_UserColumnName="NumberOfNotConfirmedBookings" type="xs:int" minOccurs="0" />
+              <xs:element name="NumberOfPendingBookings" msprop:Generator_ColumnPropNameInRow="NumberOfPendingBookings" msprop:Generator_ColumnPropNameInTable="NumberOfPendingBookingsColumn" msprop:Generator_ColumnVarNameInTable="columnNumberOfPendingBookings" msprop:Generator_UserColumnName="NumberOfPendingBookings" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:view_CancellationRate" />
+      <xs:field xpath="mstns:TripID" />
+    </xs:unique>
+    <xs:unique name="view_RevenueByCategory_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:view_RevenueByCategory" />
+      <xs:field xpath="mstns:TripID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

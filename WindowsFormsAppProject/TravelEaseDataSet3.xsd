@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TravelEaseDataSet3" targetNamespace="http://tempuri.org/TravelEaseDataSet3.xsd" xmlns:mstns="http://tempuri.org/TravelEaseDataSet3.xsd" xmlns="http://tempuri.org/TravelEaseDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TravelEaseConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TravelEaseConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsAppProject.Properties.Settings.GlobalReference.Default.TravelEaseConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_ActiveUsersTableAdapter" GeneratorDataComponentClassName="view_ActiveUsersTableAdapter" Name="view_ActiveUsers" UserDataComponentName="view_ActiveUsersTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectName="TravelEase.dbo.view_ActiveUsers" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ActivityMonth, ActivityYear, ActiveTravelers, ActiveOperators FROM dbo.view_ActiveUsers</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ActivityMonth" DataSetColumn="ActivityMonth" />
+              <Mapping SourceColumn="ActivityYear" DataSetColumn="ActivityYear" />
+              <Mapping SourceColumn="ActiveTravelers" DataSetColumn="ActiveTravelers" />
+              <Mapping SourceColumn="ActiveOperators" DataSetColumn="ActiveOperators" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_NewUserRegistrationsTableAdapter" GeneratorDataComponentClassName="view_NewUserRegistrationsTableAdapter" Name="view_NewUserRegistrations" UserDataComponentName="view_NewUserRegistrationsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectName="TravelEase.dbo.view_NewUserRegistrations" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT RegistrationMonth, RegistrationYear, NewUsers, UserType FROM dbo.view_NewUserRegistrations</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="RegistrationMonth" DataSetColumn="RegistrationMonth" />
+              <Mapping SourceColumn="RegistrationYear" DataSetColumn="RegistrationYear" />
+              <Mapping SourceColumn="NewUsers" DataSetColumn="NewUsers" />
+              <Mapping SourceColumn="UserType" DataSetColumn="UserType" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_PartnershipGrowthTableAdapter" GeneratorDataComponentClassName="view_PartnershipGrowthTableAdapter" Name="view_PartnershipGrowth" UserDataComponentName="view_PartnershipGrowthTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectName="TravelEase.dbo.view_PartnershipGrowth" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT JoinMonth, JoinYear, NewHotels, NewOperators FROM dbo.view_PartnershipGrowth</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JoinMonth" DataSetColumn="JoinMonth" />
+              <Mapping SourceColumn="JoinYear" DataSetColumn="JoinYear" />
+              <Mapping SourceColumn="NewHotels" DataSetColumn="NewHotels" />
+              <Mapping SourceColumn="NewOperators" DataSetColumn="NewOperators" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_RegionalExpansionTableAdapter" GeneratorDataComponentClassName="view_RegionalExpansionTableAdapter" Name="view_RegionalExpansion" UserDataComponentName="view_RegionalExpansionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TravelEaseConnectionString (Settings)" DbObjectName="TravelEase.dbo.view_RegionalExpansion" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT AddedMonth, AddedYear, NewDestinations FROM dbo.view_RegionalExpansion</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="AddedMonth" DataSetColumn="AddedMonth" />
+              <Mapping SourceColumn="AddedYear" DataSetColumn="AddedYear" />
+              <Mapping SourceColumn="NewDestinations" DataSetColumn="NewDestinations" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TravelEaseDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="TravelEaseDataSet3" msprop:Generator_DataSetName="TravelEaseDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_ActiveUsers" msprop:Generator_RowEvHandlerName="view_ActiveUsersRowChangeEventHandler" msprop:Generator_RowDeletedName="view_ActiveUsersRowDeleted" msprop:Generator_RowDeletingName="view_ActiveUsersRowDeleting" msprop:Generator_RowEvArgName="view_ActiveUsersRowChangeEvent" msprop:Generator_TablePropName="view_ActiveUsers" msprop:Generator_RowChangedName="view_ActiveUsersRowChanged" msprop:Generator_RowChangingName="view_ActiveUsersRowChanging" msprop:Generator_TableClassName="view_ActiveUsersDataTable" msprop:Generator_RowClassName="view_ActiveUsersRow" msprop:Generator_TableVarName="tableview_ActiveUsers" msprop:Generator_UserTableName="view_ActiveUsers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ActivityMonth" msprop:Generator_ColumnPropNameInRow="ActivityMonth" msprop:Generator_ColumnPropNameInTable="ActivityMonthColumn" msprop:Generator_ColumnVarNameInTable="columnActivityMonth" msprop:Generator_UserColumnName="ActivityMonth" type="xs:int" minOccurs="0" />
+              <xs:element name="ActivityYear" msprop:Generator_ColumnPropNameInRow="ActivityYear" msprop:Generator_ColumnPropNameInTable="ActivityYearColumn" msprop:Generator_ColumnVarNameInTable="columnActivityYear" msprop:Generator_UserColumnName="ActivityYear" type="xs:int" minOccurs="0" />
+              <xs:element name="ActiveTravelers" msprop:Generator_ColumnPropNameInRow="ActiveTravelers" msprop:Generator_ColumnPropNameInTable="ActiveTravelersColumn" msprop:Generator_ColumnVarNameInTable="columnActiveTravelers" msprop:Generator_UserColumnName="ActiveTravelers" type="xs:int" minOccurs="0" />
+              <xs:element name="ActiveOperators" msprop:Generator_ColumnPropNameInRow="ActiveOperators" msprop:Generator_ColumnPropNameInTable="ActiveOperatorsColumn" msprop:Generator_ColumnVarNameInTable="columnActiveOperators" msprop:Generator_UserColumnName="ActiveOperators" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="view_NewUserRegistrations" msprop:Generator_RowEvHandlerName="view_NewUserRegistrationsRowChangeEventHandler" msprop:Generator_RowDeletedName="view_NewUserRegistrationsRowDeleted" msprop:Generator_RowDeletingName="view_NewUserRegistrationsRowDeleting" msprop:Generator_RowEvArgName="view_NewUserRegistrationsRowChangeEvent" msprop:Generator_TablePropName="view_NewUserRegistrations" msprop:Generator_RowChangedName="view_NewUserRegistrationsRowChanged" msprop:Generator_RowChangingName="view_NewUserRegistrationsRowChanging" msprop:Generator_TableClassName="view_NewUserRegistrationsDataTable" msprop:Generator_RowClassName="view_NewUserRegistrationsRow" msprop:Generator_TableVarName="tableview_NewUserRegistrations" msprop:Generator_UserTableName="view_NewUserRegistrations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RegistrationMonth" msprop:Generator_ColumnPropNameInRow="RegistrationMonth" msprop:Generator_ColumnPropNameInTable="RegistrationMonthColumn" msprop:Generator_ColumnVarNameInTable="columnRegistrationMonth" msprop:Generator_UserColumnName="RegistrationMonth" type="xs:int" minOccurs="0" />
+              <xs:element name="RegistrationYear" msprop:Generator_ColumnPropNameInRow="RegistrationYear" msprop:Generator_ColumnPropNameInTable="RegistrationYearColumn" msprop:Generator_ColumnVarNameInTable="columnRegistrationYear" msprop:Generator_UserColumnName="RegistrationYear" type="xs:int" minOccurs="0" />
+              <xs:element name="NewUsers" msprop:Generator_ColumnPropNameInRow="NewUsers" msprop:Generator_ColumnPropNameInTable="NewUsersColumn" msprop:Generator_ColumnVarNameInTable="columnNewUsers" msprop:Generator_UserColumnName="NewUsers" type="xs:int" minOccurs="0" />
+              <xs:element name="UserType" msprop:Generator_ColumnPropNameInRow="UserType" msprop:Generator_ColumnPropNameInTable="UserTypeColumn" msprop:Generator_ColumnVarNameInTable="columnUserType" msprop:Generator_UserColumnName="UserType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="view_PartnershipGrowth" msprop:Generator_RowEvHandlerName="view_PartnershipGrowthRowChangeEventHandler" msprop:Generator_RowDeletedName="view_PartnershipGrowthRowDeleted" msprop:Generator_RowDeletingName="view_PartnershipGrowthRowDeleting" msprop:Generator_RowEvArgName="view_PartnershipGrowthRowChangeEvent" msprop:Generator_TablePropName="view_PartnershipGrowth" msprop:Generator_RowChangedName="view_PartnershipGrowthRowChanged" msprop:Generator_RowChangingName="view_PartnershipGrowthRowChanging" msprop:Generator_TableClassName="view_PartnershipGrowthDataTable" msprop:Generator_RowClassName="view_PartnershipGrowthRow" msprop:Generator_TableVarName="tableview_PartnershipGrowth" msprop:Generator_UserTableName="view_PartnershipGrowth">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JoinMonth" msprop:Generator_ColumnPropNameInRow="JoinMonth" msprop:Generator_ColumnPropNameInTable="JoinMonthColumn" msprop:Generator_ColumnVarNameInTable="columnJoinMonth" msprop:Generator_UserColumnName="JoinMonth" type="xs:int" minOccurs="0" />
+              <xs:element name="JoinYear" msprop:Generator_ColumnPropNameInRow="JoinYear" msprop:Generator_ColumnPropNameInTable="JoinYearColumn" msprop:Generator_ColumnVarNameInTable="columnJoinYear" msprop:Generator_UserColumnName="JoinYear" type="xs:int" minOccurs="0" />
+              <xs:element name="NewHotels" msprop:Generator_ColumnPropNameInRow="NewHotels" msprop:Generator_ColumnPropNameInTable="NewHotelsColumn" msprop:Generator_ColumnVarNameInTable="columnNewHotels" msprop:Generator_UserColumnName="NewHotels" type="xs:int" minOccurs="0" />
+              <xs:element name="NewOperators" msprop:Generator_ColumnPropNameInRow="NewOperators" msprop:Generator_ColumnPropNameInTable="NewOperatorsColumn" msprop:Generator_ColumnVarNameInTable="columnNewOperators" msprop:Generator_UserColumnName="NewOperators" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="view_RegionalExpansion" msprop:Generator_RowEvHandlerName="view_RegionalExpansionRowChangeEventHandler" msprop:Generator_RowDeletedName="view_RegionalExpansionRowDeleted" msprop:Generator_RowDeletingName="view_RegionalExpansionRowDeleting" msprop:Generator_RowEvArgName="view_RegionalExpansionRowChangeEvent" msprop:Generator_TablePropName="view_RegionalExpansion" msprop:Generator_RowChangedName="view_RegionalExpansionRowChanged" msprop:Generator_RowChangingName="view_RegionalExpansionRowChanging" msprop:Generator_TableClassName="view_RegionalExpansionDataTable" msprop:Generator_RowClassName="view_RegionalExpansionRow" msprop:Generator_TableVarName="tableview_RegionalExpansion" msprop:Generator_UserTableName="view_RegionalExpansion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AddedMonth" msprop:Generator_ColumnPropNameInRow="AddedMonth" msprop:Generator_ColumnPropNameInTable="AddedMonthColumn" msprop:Generator_ColumnVarNameInTable="columnAddedMonth" msprop:Generator_UserColumnName="AddedMonth" type="xs:int" minOccurs="0" />
+              <xs:element name="AddedYear" msprop:Generator_ColumnPropNameInRow="AddedYear" msprop:Generator_ColumnPropNameInTable="AddedYearColumn" msprop:Generator_ColumnVarNameInTable="columnAddedYear" msprop:Generator_UserColumnName="AddedYear" type="xs:int" minOccurs="0" />
+              <xs:element name="NewDestinations" msprop:Generator_ColumnPropNameInRow="NewDestinations" msprop:Generator_ColumnPropNameInTable="NewDestinationsColumn" msprop:Generator_ColumnVarNameInTable="columnNewDestinations" msprop:Generator_UserColumnName="NewDestinations" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
