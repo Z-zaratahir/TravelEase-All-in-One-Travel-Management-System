@@ -1,0 +1,70 @@
+﻿1,1,Morning Trek,Mountains,08:00:00.0000000,12:00:00.0000000,1
+2,2,City Tour,Downtown,09:00:00.0000000,12:00:00.0000000,1
+3,3,Beach Relaxation,Sunny Beach,10:00:00.0000000,15:00:00.0000000,1
+4,1,Desert Safari,Sahara,07:00:00.0000000,12:00:00.0000000,2
+5,2,Historical Monuments,Old Town,09:00:00.0000000,13:00:00.0000000,2
+6,3,Sunset View,Desert Lookout,16:00:00.0000000,18:00:00.0000000,2
+7,1,Morning Yoga,Beachfront,06:00:00.0000000,08:00:00.0000000,3
+8,2,Market Visit,City Market,10:00:00.0000000,13:00:00.0000000,3
+9,3,Dinner Cruise,Harbor,18:00:00.0000000,21:00:00.0000000,3
+10,1,Cultural Show,Main Square,19:00:00.0000000,21:00:00.0000000,4
+11,2,Hiking Adventure,Hillside,07:00:00.0000000,12:00:00.0000000,4
+12,3,City Exploration,City Center,09:00:00.0000000,14:00:00.0000000,4
+13,1,Safari Tour,National Park,08:00:00.0000000,11:00:00.0000000,5
+14,2,Local Cuisine Tasting,Street Market,12:00:00.0000000,14:00:00.0000000,5
+15,3,Evening Relaxation,Lakeside,17:00:00.0000000,20:00:00.0000000,5
+16,1,Forest Trek,Woodland Trails,08:00:00.0000000,11:00:00.0000000,6
+17,2,Waterfalls Visit,River Canyon,10:00:00.0000000,13:00:00.0000000,6
+18,3,Night Sky Stargazing,Mountain Peak,20:00:00.0000000,22:00:00.0000000,6
+19,1,Cave Exploration,Underground Caverns,08:00:00.0000000,11:00:00.0000000,7
+20,2,Historical Site Visit,Ruins,09:00:00.0000000,12:00:00.0000000,7
+21,3,Sunset at the Beach,Coastal View,17:00:00.0000000,20:00:00.0000000,7
+22,1,Morning Hike,Mountain Trails,07:00:00.0000000,11:00:00.0000000,8
+23,2,Cultural Dinner,City Restaurant,18:00:00.0000000,21:00:00.0000000,8
+24,3,Shopping and Souvenir,Local Markets,10:00:00.0000000,14:00:00.0000000,8
+25,1,Mountain Biking,Hillside Trails,08:00:00.0000000,11:00:00.0000000,9
+26,2,Visit to Museum,City Museum,09:00:00.0000000,12:00:00.0000000,9
+27,3,Relaxation at Spa,Luxury Resort,14:00:00.0000000,17:00:00.0000000,9
+28,1,Rock Climbing,Cliffside,08:00:00.0000000,12:00:00.0000000,10
+29,2,Botanical Gardens,City Park,10:00:00.0000000,13:00:00.0000000,10
+30,3,Music Night,Beachside,19:00:00.0000000,22:00:00.0000000,10
+31,1,Snorkeling Adventure,Coral Reef,09:00:00.0000000,12:00:00.0000000,11
+32,2,Nature Walk,Forest Area,08:00:00.0000000,11:00:00.0000000,11
+33,3,Dinner and Dance,City Club,20:00:00.0000000,23:00:00.0000000,11
+34,1,Jet Skiing,Oceanfront,08:00:00.0000000,10:00:00.0000000,12
+35,2,Gastronomy Tour,Food Street,12:00:00.0000000,15:00:00.0000000,12
+36,3,Late Night Walk,City Beach,21:00:00.0000000,23:00:00.0000000,12
+37,1,Safari Tour,Wildlife Reserve,07:00:00.0000000,10:00:00.0000000,13
+38,2,River Rafting,River Valley,09:00:00.0000000,12:00:00.0000000,13
+39,3,Cooking Class,Local Kitchen,15:00:00.0000000,18:00:00.0000000,13
+40,1,Cultural Walk,Ancient Streets,10:00:00.0000000,12:00:00.0000000,14
+41,2,Spa and Wellness,Mountain Resort,11:00:00.0000000,14:00:00.0000000,14
+42,3,Visit to Vineyard,Wine Estate,13:00:00.0000000,16:00:00.0000000,14
+43,1,Canoeing,Lake,08:00:00.0000000,10:00:00.0000000,15
+44,2,Wine Tasting,Wine Cellar,12:00:00.0000000,15:00:00.0000000,15
+45,3,Fishing Trip,River Banks,07:00:00.0000000,10:00:00.0000000,15
+46,1,City Walking Tour,Old Town,09:00:00.0000000,12:00:00.0000000,16
+47,2,Visit to Castle,Historic Castle,11:00:00.0000000,14:00:00.0000000,16
+48,3,Live Performance,City Theater,19:00:00.0000000,21:00:00.0000000,16
+49,1,Beach Volleyball,Coastal Resort,08:00:00.0000000,11:00:00.0000000,17
+50,2,Island Tour,Tropical Island,09:00:00.0000000,12:00:00.0000000,17
+51,3,Dinner on Yacht,Harbor,18:00:00.0000000,21:00:00.0000000,17
+52,1,Caving,Underground Tunnels,08:00:00.0000000,12:00:00.0000000,18
+53,2,Dune Bashing,Sand Dunes,10:00:00.0000000,13:00:00.0000000,18
+54,3,Desert Stargazing,Desert Plateau,20:00:00.0000000,23:00:00.0000000,18
+55,1,Horseback Riding,Countryside,07:00:00.0000000,11:00:00.0000000,19
+56,2,Historical Walking Tour,Old Town,10:00:00.0000000,13:00:00.0000000,25
+57,3,Beach Party,Beach Resort,18:00:00.0000000,22:00:00.0000000,19
+58,1,Cultural Experience,Local Village,08:00:00.0000000,11:00:00.0000000,20
+59,2,Botanical Garden Tour,Botanical Park,10:00:00.0000000,13:00:00.0000000,20
+60,3,Cruise Dinner,Sea View,19:00:00.0000000,22:00:00.0000000,20
+61,1,Mountain Climbing,High Peak,06:00:00.0000000,12:00:00.0000000,21
+62,2,Cultural Dinner,Heritage Restaurant,18:00:00.0000000,21:00:00.0000000,21
+63,3,Nature Photography,Wildlife Park,08:00:00.0000000,11:00:00.0000000,21
+64,1,Scuba Diving,Coral Reefs,09:00:00.0000000,12:00:00.0000000,22
+65,2,Island Hopping,Tropical Islands,10:00:00.0000000,13:00:00.0000000,22
+66,3,Night Market,Night Bazaar,18:00:00.0000000,22:00:00.0000000,22
+67,1,Hiking in Nature,Mountain Trails,07:00:00.0000000,11:00:00.0000000,23
+68,2,Cooking Experience,Local Kitchen,12:00:00.0000000,14:00:00.0000000,23
+69,3,Street Food Tasting,City Streets,17:00:00.0000000,20:00:00.0000000,23
+70,1,Vineyard Tour,Wine Estate,09:00:00.0000000,12:00:00.0000000,24
